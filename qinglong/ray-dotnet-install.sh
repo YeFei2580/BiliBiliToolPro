@@ -20,7 +20,7 @@ get_download_url_by_machine_architecture() {
         esac
     fi
     # Always default to 'x64'
-    echo $DOWNLOAD_X64
+    echo $DOWNLOAD_ARM32
     return 0
 }
 
